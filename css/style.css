@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: #3d3c3c;
+    background-color: hwb(0 0% 100%);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #3d3c3c;
+    color: #000000;
 }
 
 p, label {
@@ -37,12 +37,12 @@ textarea {
 }
 
 .cabecalho h3{
-    color: rgb(255, 255, 255);
+    color: #3d3c3c;
     margin-top: 0;
 }
 
 .form-container {
-    background-color: hsl(0, 0%, 0%);
+    background-color: #3d3c3c;
 width: 60%;
 margin: 0 auto;
 position: relative;
@@ -50,7 +50,7 @@ top: -46px;
 }
 
 .form-header {
-    border-bottom: 1px solid hsl(0, 0%, 0%);
+    border-bottom: 1px solid #3d3c3c;
     height: 45px;
 }
 
