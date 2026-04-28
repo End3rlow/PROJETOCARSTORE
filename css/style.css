@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, label {
-    color: #363636;
+    color: hsl(0, 0%, 0%);
 }
 
 input {
@@ -34,4 +34,8 @@ textarea {
     height: 160px;
     padding: 20px;
     background-color: darkgoldenrod;
+}
+
+.cabecalho h3{
+    color: rgb(255, 255, 255);
 }
