@@ -10,43 +10,46 @@
     <header class="cabecalho">
         <h3>Cadastre seu veículo para viabilizar uma venda ágil</h3>
     </header>
-    <div>
+    <div class="form-container">
+        <div class="form-header">
+            <p><strong>Formulário</strong></p>
+        </div>
         <div>
             <p>Fomulário</p>
         </div>
-        <div>
+        <div class="form-body"
             <h1>Venda facil seu carro</h1>
             <p>Descreva as características do seu carro e selecione os opcionais que ele possui</p>
-            <form>
-                <div>
+            <form onsubmit="salvarcarros(event)">
+                <div class="caixaInputs">>
                     <label for="title">Titulo do Anuncio<span>*</span></label>
                     <input type="text" name="title" id="title" placeholder="Um titulo para anunciar seu carro">
                 </div>
-                 <div>
+                 <div class="caixaInputs">>
                     <label for="preço">Preço <span>*</span></label>
                     <input type="text" name="number" id="number" placeholder="Defina o preço">
                 </div>
-                <div>
+                <div class="caixaInputs">>
                     <label for="Descricao">Descricao <span>*</span></label>
                     <textarea name="Descricao" id="Descricao" placeholder="Faça a descriçao do seu veiculo"></textarea>
                 </div>
-                <div>
+                <div class="caixaInputs">>
                     <label for="Marca">Marca<span>*</span></label>
                     <input type="text" name="Marca" id="Marca" placeholder="Defina a marca do sue veiculo">
                 </div>
-                <div>
+                <div class="caixaInputs">>
                     <label for="Modelo">Modelo<span>*</span></label>
                     <input type="text" name="Modelo" id="Modelo" placeholder="Defina o modelo do seu veiculo">
                 </div>
-                 <div>
+                 <div class="caixaInputs">>
                     <label for="Kilometragem">Kilometragem<span>*</span></label>
                    <input type="number" name="Kilometragem" id="Kilometragem" placeholder="Kilometragem do seu veiculo">
                 </div>
-                 <div>
+                 <div class="caixaInputs">>
                     <label for="DataDeCompra">Data de compra<span>*</span></label>
                    <input type="date" name="DataDeCompra" id="DataDeCompra">
                 </div>
-                <div>
+                <div class="caixaInputs">>
                     <p>Tipo De Câmbio: <span>*</span></p>
                     <input type="radio" name="marcha" id="manual">
                     <label for="Manual">Manual</label>
