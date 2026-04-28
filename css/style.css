@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(126, 2, 2);
+    background-color: hsl(0, 0%, 0%);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, label {
-    color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
 }
 
 input {
@@ -33,7 +33,7 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: darkgoldenrod;
+    background-color: darkred;
 }
 
 .cabecalho h3{
