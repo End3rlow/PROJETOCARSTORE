@@ -14,7 +14,7 @@ p, label {
 }
 input {
     border: none;
-    border-bottom: 1px solid cadetblue;
+    border-bottom: 1px solid #770909f5;
     padding: 10px 0 ;
 }
 input[type= 'text'],input[type= 'number'],input[type= 'file'],input[type= 'date'], textarea {
@@ -29,7 +29,7 @@ textarea {
     background-color: #770909f5;
 }
 .cabecalho h3{
-    color: rgb(230, 230, 230);
+    color: #aa9102;
     margin-top: 0;
 }
 .form-container {
