@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: hsl(0, 0%, 0%);
+    background-color: #3d3c3c;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(255, 255, 255);
+    color: #3d3c3c;
 }
 
 p, label {
@@ -18,7 +18,7 @@ p, label {
 
 input {
     border: none;
-    border-bottom: 1px solid hsl(0, 0%, 100%);
+    border-bottom: 1px solid;
     padding: 10px 0;
 }
 
