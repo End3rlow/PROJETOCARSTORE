@@ -1,54 +1,81 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-} 
-body {
-    background-color: #444440;
 }
-h1, h2, h3, h4, h5, h6 {
-    color:black
+
+body{
+    background-color: hsl(0, 0%, 0%);
 }
-p, label {
-    color: rgb(92, 91, 91);
+
+h1, h2, h3, h4, h5, h6{
+    color: rgb(255, 255, 255);
 }
-input {
+
+p, label{
+    color: rgb(0, 0, 0);
+}
+
+input{
     border: none;
-    border-bottom: 1px solid #770909f5;
-    padding: 10px 0 ;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
 }
-input[type= 'text'],input[type= 'number'],input[type= 'file'],input[type= 'date'], textarea {
+
+input[type= "text"], input[type= "number"], input[type= "date"], input[type= "file"], textarea{
     width: 400px;
 }
-textarea {
+
+textarea{
     padding: 10px 5px;
 }
-.cabecalho {
+
+.cabecalho{
     height: 160px;
     padding: 20px;
-    background-color: #770909f5;
+    background-color: #daa515;
 }
+
 .cabecalho h3{
-    color: #aa9102;
+    color: rgb(0, 0, 0);
     margin-top: 0;
 }
-.form-container {
-    background-color: rgba(255, 255, 254, 0.959);
+
+.form-container{
+    background-color: #c00000;
     width: 60%;
     margin: 0 auto;
     position: relative;
     top: -46px;
 }
 
-.form-header {
-    border-bottom: 1px solid #770909f5;
-    height: 45px;
+.form-header{
+        border-bottom: 1px solid #dfdfdf;
+        height: 45px;
 }
-.form-header p {
-    color: black;
-    border-bottom: 2px solid (255, 255, 254, 0.959);
+
+.form-header p{
+    color: #ffffff;
+    border-bottom:  2px solid  #01f8ae;
     width: 100%;
     text-align: center;
-    margin: 0 auto;
+    margin:  0 auto;
     text-transform: uppercase;
+    height: 45px;
+    list-style: 45px;
+}
+
+.form-body{
+    padding: 30px;
+}
+
+.titulo-form{
+   margin-bottom: 15px;
+}
+.form-body p{
+    margin-bottom: 20px;
+}
+
+.campo-obrigatorio{
+    color: red;
 }
